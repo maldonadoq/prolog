@@ -55,7 +55,7 @@ zodiac:-write('Apellido'), nl, read(A), datos(N,A,fecha(D,M,_)),
 		write(N), write(' tu signo zodiacal el: '),
 		(D<ID2, write(Z1));
 		write(Z2)
-	).	
+	).
 
 /*
 ?- zodiac.
